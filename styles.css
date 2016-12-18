@@ -1,27 +1,70 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	background-color: rgb(240,250,250);
+	background-color: #E6E8E6;
 }
 
+
+/*************************************
+	Containers 
+*************************************/
+
 .mainContainer {
-	height: 100%;
+	height: auto;
 	width: 100%;
 	position: absolute;
+	color: black;
+}
+
+.container {
+	padding: 20px 20px;
+	height: 80%;
+}
+
+.menuContainer {
+	position: absolute;
+	height: calc(100% - 20px);
+	width: 70%;
+	display: inline-block;
+	
 }
 
 .contentContainer {
 	width: 80%;
-	height: 100%;
+	height: auto;
 	padding: 0 15px;
-	margin: 40px auto;
-	
+	margin: 40px auto 150px auto;
 }
+
+
+.logoHolder {
+	width: auto;
+	text-align: center;
+	height: 100%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+/*************************************
+*************************************/
+
+
 
 .row {
 	width: 100%;
 	font-size: 15px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .item {
@@ -29,13 +72,17 @@ body {
 	border-radius: 5px;
 	height: auto;
 	display: inline-block;
+	-moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 .itemcol {
 	width: calc(50% - 30px);
 	height: 100%;
 	float: left;
-	padding: 0 15px;
+	padding: 15px 15px;
 	
 }
 
@@ -51,9 +98,6 @@ body {
 	
 }
 
-#palm2 {
-
-}
 
 .palm {
 	height: 400px;
@@ -71,41 +115,47 @@ h1 {
 .header {
 	width: 100%;
 	height: 200px;
-	background-image: url("/img/texture.png");
+	//background-image: url("/img/texture.png");
+	background-color: #BBDBD1;
 	position: relative;
+	//border: 1px solid;
 }
 
-.container {
-	padding: 20px 20px;
-	height: 80%;
-}
+
 
 .clearfix {
   overflow: auto;
   zoom: 1;
 }
 
-a {
+
+a:hover {
+	color: gray;
+}
+
+.fade
+{
+	
+}
+.item:hover
+{
+        background-color: #D8DBE2;
+}
+
+.menulink {
 	padding: 15px 15px;
 	text-decoration: none;
 	color: rgb(0,40,20);
-}
-
-a:hover {
-	color: rgb(0,180,150);
 }
 
 .hl {
 	float:left;
 }
 
-.logoHolder {
-	width: auto;
-	text-align: center;
-	height: 100%;
-	margin: 0 auto;
-	display: inline-block;
+#logo {
+	border: 1px solid;
 }
+
 
 li {
 	display: inline-block;
@@ -126,4 +176,13 @@ img {
 	max-height: 100%;
 	margin: auto auto;
 	display: block;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:150px;
+    background:#ccc;
 }
