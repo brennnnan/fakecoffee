@@ -12,7 +12,7 @@ html,body{
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	background-color: #E6E8E6;
+	background-color: rgb(250,252,254);
 }
 
 
@@ -56,15 +56,56 @@ body {
 	display: inline-block;
 }
 
+
+
 /*************************************
+	Tags
 *************************************/
 
+td {
+	border-top: 1px solid;
+	padding: 8px;
+}
 
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+li {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-top: -1px;
+  border-top: 1px solid transparent;
+}
+
+ul {
+	position: absolute;
+	bottom: 15%;
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto auto;
+	display: block;
+}
+
+
+/*************************************
+*************************************/
 
 .row {
 	width: 100%;
 	font-size: 15px;
 	margin-bottom: 30px;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
 }
 
 .item {
@@ -107,10 +148,7 @@ body {
 	display: inline-block;
 }
 
-h1 {
-	font-family: 'Work Sans', sans-serif;
-	
-}
+
 
 .header {
 	width: 100%;
@@ -156,27 +194,6 @@ a:hover {
 	border: 1px solid;
 }
 
-
-li {
-	display: inline-block;
-	width: auto;
-	height: auto;
-	margin-top: -1px;
-  border-top: 1px solid transparent;
-}
-
-ul {
-	position: absolute;
-	bottom: 15%;
-	display: inline-block;
-}
-
-img {
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto auto;
-	display: block;
-}
 
 .footer{
     position: absolute;
