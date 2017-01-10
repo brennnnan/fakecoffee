@@ -6,7 +6,6 @@ html {
 html,body{
   margin:0;
   padding:0;
-
 }
 
 body {
@@ -102,7 +101,10 @@ td:hover {
 	color: darkgray;
 }
 
-
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+	color: black;
+}
 
 
 img {
@@ -112,7 +114,7 @@ img {
 	display: block;
 }
 
-a:hover {
+menulink a:hover {
 	color: gray;
 }
 
@@ -162,7 +164,7 @@ a:hover {
 }
 
 .fa-stack {
-	  transition: color 0.5s ease;
+	  transition: color 0.3s ease;
 }
 
 #ig:hover {
@@ -183,7 +185,7 @@ a:hover {
 
 .col_2 {
 	position: relative;
-	height: 600px;
+	height: 400px;
 	width: 43%;
 	padding: 2%;
 	display: inline-block;
