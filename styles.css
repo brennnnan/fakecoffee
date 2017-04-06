@@ -157,7 +157,7 @@ menulink a:hover {
 	font-weight: 400;
 }
 
-#rightSide {
+#leftSide {
 	display: inline-block;
 	width: 45%;
 	height: auto;
@@ -197,7 +197,7 @@ menulink a:hover {
 	display: inline-block;
 	width: 40%;
 	height: auto;
-	float:left;
+	float:right;
 }
 
 #menu {
